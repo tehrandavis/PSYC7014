@@ -1,0 +1,47 @@
+---
+title: "HW 1"
+author: "Tehran Davis"
+date: "8/25/2021"
+output: html_document
+---
+
+# PSYC 7014, Week 1 Assignment
+
+**Materials can be found at: https://github.com/tehrandavis/PSYC7014**
+
+*this is a pdf version of an R-markdown (.Rmd) file that is on the Github Repo. Use the Rmd for your work*
+
+Hello everyone. This is your first week's lab assignment. A few things before we get going: 
+
+- Please complete this assignment using this `.Rmd` file (just add your text and code at the bottom below the line of dashes)
+- Be sure to change my name to *your name* in the header (as well as the date)
+- Before turning this in, rename this document to `HW1_your_last_name.Rmd`
+- Remember that you need to show your work, meaning every line of code that you write needs to be in this document in the order that you execute it.
+
+
+Your assignment:
+
+1. Load in the `anorexiaTherapy.csv` data set in the homework folder. Be sure to assign it to an `R` object.
+
+2. Given what you know, identify the kind of data (scale of measurement) for each column in this data set.
+
+3. Repeat 1 and 2 for the `IQ_scores.csv` and `LikertData.csv` datasets.
+
+4. Find a dataset from your lab. The dataset should, *at minimum*, contain 1 column of data that is categorical and 1 column interval / ratio. It should also have header names at the top (e.g., `Gender`, `ReactionTime`, `Score`, etc.)
+
+5. use the `$` operator to call out data from the column containing the continuous data. Assign it to an object named `measure` (e.g., `measure <- dataFrame$column)
+
+6. use the `log()` function to get the logarithm of all the values contained in measure. Assign that to `measure_log`
+
+7. Look at the output of `measure_log`, how did your values change?
+
+8. if your dataset has header names, use the `names()` function to assign those names to a vector object, in other words create a new object (e.g., `names_df`) that contains a list of the dataset's names. For example, assuming your data frame was named `IQ_scores` your code would look like this
+
+```{r}
+names_df <- names(IQ_scores)
+```
+
+
+# START YOUR HOMEWORK BELOW THIS LINE
+___________________________________________________________
+

@@ -1,0 +1,35 @@
+---
+title: "HW 3"
+author: "Your Name Here"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Week 3: Homework
+
+For this homework we will be analyzing some of the data from a lexical decision task. A lexical decision task is an experimental procedure/method used in many psychology and psycholinguistics experiments. The basic procedure employed involved measuring how quickly people classified stimuli presented to participants visually (i.e., on a computer monitor) as either words or non-words. In short, are people able to recognize words or non-words faster.
+
+# Part 1: Overall distribution 
+
+1. Import the data file `LexicalDescisionData.txt` from the homework folder. Save it to an object called `LexData` 
+
+2. Use the `describe()` function to gather info about mean, median, and sd of the reaction time data `LexData$ReactionTime`. 
+
+3. Create the following plots of reaction times from the entire distribution: histogram and boxplot.  
+
+# Part 2: Assessing by groups 
+
+5. Use the `describeBy()` function to gather info about mean, median, and sd of the reaction time data LexData$ReactionTime, **for responses with Words v Non-words.** 
+
+6. Create a histogram for both the **Word** group and the **Non-word** group. 
+
+ 
+
+# Part 3: Your own data
+
+7. Repeat parts 1 and 2 with your own data.
+
+
+# START YOUR HOMEWORK BELOW THIS LINE
+___________________________________________________________
+
